@@ -38,16 +38,14 @@
         z-index: 999;
         font-family: 'Poppins', sans-serif;
       }
-      .asdf {
-        height: 6%;
-        width: 3%;
-        z-index: 9999;
-        position: absolute;
-        top: 110px;
-        left: 175px;
-
+      .abcd {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
       }
-      
+
       .reloadBtn {
         position: absolute;
         top: 110px;
@@ -1275,8 +1273,10 @@
   </head>
 
   <body class="not-loaded">
+    <div class="abcd">
     <h3 class="title">de hedya baseeta 3a4anik</h3>
     <button class="reloadBtn" onclick="bloomFlower()">Click ya mrioomy</button>
+    </div>
     <div class="night"></div>
     <div class="flowers">
       <div class="flower flower--1">
